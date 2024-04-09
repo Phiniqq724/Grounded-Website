@@ -31,6 +31,7 @@ const Forms: React.FC = () => {
           <input
             type="text"
             name="Name"
+            value={name}
             placeholder="Enter your name!"
             onChange={(e) => setName(e.target.value)}
             className="text-white border-none bg-darkaccent p-4 mt-4 w-[706px] rounded-2xl hover:bg-gray-600 placeholder:text-gray-400 hover:placeholder:text-gray-300 pt-6 pb-6 font-raleway placeholder:font-raleway placeholder:font-medium duration-500 transition-colors placeholder:duration-500 placeholder:transition-colors"

@@ -3,7 +3,6 @@ import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Portofolio from "./components/Portofolio";
 import Services from "./components/Services";
-import Form from "./components/Form";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer"
 
@@ -16,7 +15,6 @@ export default function App() {
       <Portofolio />
       <Services />
       <ContactUs />
-      {/* <Form /> */}
       <Footer />
     </>
   );

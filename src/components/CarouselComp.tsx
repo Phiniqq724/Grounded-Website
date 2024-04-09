@@ -4,8 +4,6 @@ export default function CarouselComp({
   Source1,
   Source2,
   Source3,
-  Source4,
-  Source5,
 }: any) {
   return (
     <Carousel pauseOnHover>

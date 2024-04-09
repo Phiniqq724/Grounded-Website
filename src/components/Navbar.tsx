@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../../public/Icon2.png";
-import ButtonOrangeF from "./ButtonOrangeF";
+// import ButtonOrangeF from "./ButtonOrangeF";
 
 export default function Navbar() {
   const [modal, setModal] = useState(false);
